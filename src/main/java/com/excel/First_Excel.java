@@ -40,7 +40,7 @@ public static void main(String[] args) throws IOException {
 		{
 		XSSFCell cell=(XSSFCell) cellIterator.next();
 		
-		switch(cell.getCellType())
+		switch(cell.getCellType())//used instead of if case statement
 		{
 		case STRING: System.out.println(cell.getStringCellValue());
 		break;
